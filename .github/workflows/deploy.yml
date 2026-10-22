@@ -31,7 +31,10 @@ jobs:
         run: npm ci
 
       - name: Build application
-        run: npm run build
+        run: |
+          npm run build
+          node scripts/prerender-pages.mjs
+          touch .vercel/output/static/.nojekyll
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
