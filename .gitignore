@@ -11,3 +11,6 @@ dist/
 public/portfolio-source.tar.gz
 
 
+-e 
+.grok/preview.log
+.grok/preview.pid
