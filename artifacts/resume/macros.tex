@@ -1,0 +1,35 @@
+% macros.tex — Custom commands for consistent, ATS-friendly formatting
+
+\newcommand{\sectiontitle}[1]{%
+  \vspace{0.55em}%
+  {\Large\bfseries\color{Primary}\MakeUppercase{#1}}%
+  \par\vspace{0.15em}%
+  {\color{Rule}\hrule height 0.6pt}%
+  \vspace{0.45em}%
+}
+
+\newcommand{\entrytitle}[2]{%
+  \noindent\textbf{\color{Primary}#1}%
+  \hfill%
+  {\small\color{Muted}#2}%
+  \par%
+}
+
+\newcommand{\entryrole}[1]{%
+  \noindent\textit{\color{Secondary}#1}\par%
+  \vspace{0.15em}%
+}
+
+\newcommand{\rbullet}[1]{%
+  \noindent\hspace{0.6em}%
+  {\color{Accent}--}\hspace{0.5em}%
+  \parbox[t]{\dimexpr\textwidth-1.4em\relax}{\raggedright #1}\par%
+  \vspace{0.22em}%
+}
+
+\newcommand{\skillline}[2]{%
+  \noindent\textbf{\color{Primary}#1:}\hspace{0.4em}{\color{Secondary}#2}\par%
+  \vspace{0.18em}%
+}
+
+\newcommand{\contactsep}{\hspace{0.35em}{\color{Rule}|}\hspace{0.35em}}

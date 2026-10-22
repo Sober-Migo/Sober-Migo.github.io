@@ -1,0 +1,5 @@
+- Built original XeLaTeX resume for Ahmed Magdy Hassan (Sober-Migo) from GitHub audit; deliverable at artifacts/resume/ with resume.tex (IBM Plex Sans), resume_pdflatex.tex fallback, resume.pdf [2026-07-31]
+- Completed IBM Generative AI Engineering with LLMs Specialization on Coursera; RAG repo structured with HF stack (no Watsonx) at github.com/Sober-Migo/RAG [2026-10-18]
+- Latest CV: Fayoum University Faculty of Computers and Artificial Intelligence 2022–2026; phone +201025173032; email ahmed022magdy@gmail.com [2026-10-18]
+- Portfolio site: plain HTML on Sober-Migo.github.io (GitHub Pages); featured RAG + PACE + HelloML [2026-10-20]
+- Fasten_Your_Seat_Belts is course/project catalog (not full notebook mirror) [2026-10-20]

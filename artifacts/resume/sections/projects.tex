@@ -1,0 +1,32 @@
+% sections/projects.tex
+
+\sectiontitle{Selected Projects}
+
+\entrytitle{RAG --- PDF Question Answering}{\href{https://github.com/Sober-Migo/RAG}{github.com/Sober-Migo/RAG}}
+\entryrole{Retrieval-Augmented Generation · LangChain · Chroma · Groq · Gradio}
+
+\rbullet{Built an end-to-end RAG app: PDF load and chunking, local ONNX embeddings (\texttt{all-MiniLM-L6-v2} via Chroma), similarity retrieval, and grounded answer generation with Groq (\texttt{llama-3.1-8b-instant}).}
+
+\rbullet{Modular Python package (\texttt{documents} / \texttt{embeddings} / \texttt{vectorstore} / \texttt{chain} / \texttt{llm} / \texttt{ui}); Gradio UI with Markdown-rendered answers; extractive fallback when no API key is set.}
+
+\rbullet{Originated from the IBM Generative AI Engineering with LLMs specialization (RAG + LangChain track); reimplemented without Watsonx for portable free-tier deployment (Kaggle / Colab demo recorded).}
+
+\vspace{0.35em}
+
+\entrytitle{PACE --- Egyptian Psychiatric Speech Analytics}{\href{https://github.com/Sober-Migo/PACE-Egyptian_Psychiatric_Speech_Analytics}{github.com/Sober-Migo/PACE-\ldots}}
+\entryrole{Multimodal Speech AI · Multi-GPU Inference · FastAPI Serving}
+
+\rbullet{Implemented a multimodal speech pipeline combining acoustic emotion classification (Wav2Vec2), Egyptian Arabic ASR (Whisper), semantic sentiment (CAMeLBERT), and LLM-based clinical-style report generation (Qwen).}
+
+\rbullet{Designed multi-GPU inference with in-memory audio chunking and batching to fit long-form sessions on dual NVIDIA T4 hardware; modular FastAPI service with BackgroundTasks, task polling, and file upload ingestion.}
+
+\rbullet{Fine-tuned and compared Wav2Vec2 vs HuBERT on public emotion corpora; published checkpoints on Hugging Face and exposed a live demo Space.}
+
+\vspace{0.35em}
+
+\entrytitle{HelloML --- Handwritten Digit OCR Pipeline}{\href{https://github.com/Sober-Migo/HelloML}{github.com/Sober-Migo/HelloML}}
+\entryrole{Classical ML · sklearn Pipeline · Reproducible Experimentation}
+
+\rbullet{End-to-end sklearn Pipeline + GridSearchCV (GaussianNB, OvR linear, logistic, MLP); best MLP configuration reported 82.8\% CV F1 and 83.2\% test accuracy on the DIDA digit dataset.}
+
+\rbullet{Adaptive preprocessing (denoise $\to$ binarize $\to$ crop $\to$ $28\times28$ center) with joblib artifact persistence for deterministic train and inference modes.}

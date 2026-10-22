@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Ahmed Magdy Hassan · AI / ML",
+      "hasCanvas": false,
+      "bodyTextLen": 3068,
+      "bodyTextHash": "63fda7f6201851bb27c6cc77e880bee1662fb55b481b73d8fe39e522470ae622",
+      "bodyTextPrefix": "Ahmed Magdy About Skills Work Path Contact Fayoum University · F",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Ahmed Magdy Hassan · AI / ML",
+      "hasCanvas": false,
+      "bodyTextLen": 3037,
+      "bodyTextHash": "9f6d802f3c8450bfe3f101e5c756621f70a66f1590bd1eecd8eb2667ea92490e",
+      "bodyTextPrefix": "Ahmed Magdy Fayoum University · FCAI · 2022–2026 Ahmed Magdy Has",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

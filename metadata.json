@@ -1,0 +1,6 @@
+{
+  "name": "Ahmed Magdy Hassan - AI / ML Portfolio",
+  "description": "Portfolio of Ahmed Magdy Hassan — speech systems, retrieval-augmented generation, and applied machine learning.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

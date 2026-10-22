@@ -1,0 +1,57 @@
+% resume_pdflatex.tex — same content, no fontspec (pdflatex-safe)
+% Use only if XeLaTeX fails. Preferred: xelatex resume.tex
+
+\documentclass[10.5pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage[
+  a4paper,
+  top=1.35cm,
+  bottom=1.35cm,
+  left=1.5cm,
+  right=1.5cm
+]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{microtype}
+
+\input{colors}
+\input{macros}
+
+\hypersetup{
+  colorlinks = true,
+  linkcolor  = Link,
+  urlcolor   = Link,
+  citecolor  = Link,
+  pdfauthor  = {Ahmed Magdy Hassan},
+  pdftitle   = {Ahmed Magdy Hassan — Applied Speech AI Engineer},
+  pdfsubject = {Resume}
+}
+
+\setlist[itemize]{
+  leftmargin = 1.1em,
+  itemsep    = 0.18em,
+  parsep     = 0pt,
+  topsep     = 0.15em,
+  partopsep  = 0pt
+}
+
+\setlength{\parskip}{0.15em}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+\setstretch{1.05}
+
+\begin{document}
+
+\input{sections/header}
+\input{sections/education}
+\input{sections/projects}
+\input{sections/skills}
+\input{sections/certificates}
+
+\end{document}

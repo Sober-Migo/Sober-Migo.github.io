@@ -1,0 +1,65 @@
+% resume.tex
+% Original XeLaTeX resume — IBM Plex Sans
+% Compile with: xelatex resume.tex   (or use LaTeX Workshop in VS Code)
+
+\documentclass[10.5pt,a4paper]{article}
+
+\usepackage{xcolor}
+\usepackage[
+  a4paper,
+  top=1.35cm,
+  bottom=1.35cm,
+  left=1.5cm,
+  right=1.5cm
+]{geometry}
+\usepackage{fontspec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{parskip}
+
+\input{colors}
+
+% IBM Plex Sans — install the font on Windows, or let fontspec find it by name
+\setmainfont{IBM Plex Sans}[
+  Ligatures = TeX
+]
+\setsansfont{IBM Plex Sans}
+\setmonofont{IBM Plex Mono}[
+  Scale = 0.92
+]
+
+\hypersetup{
+  colorlinks = true,
+  linkcolor  = Link,
+  urlcolor   = Link,
+  citecolor  = Link,
+  pdfauthor  = {Ahmed Magdy Hassan},
+  pdftitle   = {Ahmed Magdy Hassan — Applied Speech AI Engineer},
+  pdfsubject = {Resume}
+}
+
+\setlist[itemize]{
+  leftmargin = 1.1em,
+  itemsep    = 0.18em,
+  parsep     = 0pt,
+  topsep     = 0.15em,
+  partopsep  = 0pt
+}
+
+\setlength{\parskip}{0.15em}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+\setstretch{1.05}
+
+\input{macros}
+
+\begin{document}
+
+\input{sections/header}
+\input{sections/education}
+\input{sections/projects}
+\input{sections/skills}
+\input{sections/certificates}
+
+\end{document}
