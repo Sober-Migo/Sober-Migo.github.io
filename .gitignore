@@ -8,4 +8,6 @@ dist/
 .vercel/
 .nitro/
 .tsr-cache/
+public/portfolio-source.tar.gz
+
 
